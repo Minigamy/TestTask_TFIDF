@@ -1,0 +1,28 @@
+{% extends 'TFIDFapp/base.html' %}
+{% block content %}
+<p></p>
+<div align="left">
+    <ol>
+        <li>Добавьте необходимое количество файлов. После добавления каждого файла необходимо нажимать кнопку "Добавьте файл" для загрузки его на сервер.</li>
+        <li>Заполняем базу данных нажав на кнопку "Заполнить таблицы TF и IDF в ДБ".</li>
+        <li>Далее необходимо указать параметры запроса нажав на кнопку "Параметры запроса".</li>
+    </ol>
+</div>
+
+<p></p>
+
+<div align="center">
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Добавьте файл</button>
+    </form>
+</div>
+
+<p></p>
+
+<div align="center">
+    <a href="chose_file">Параметры запроса</a>
+</div>
+
+{% endblock content %}

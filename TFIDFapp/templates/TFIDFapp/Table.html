@@ -1,0 +1,30 @@
+<div align="left">
+  <a href="{% url 'chose_file' %}">Назад</a>
+</div>
+
+<p></p>
+
+<div align="right">
+  <a href="{% url 'add_file' %}">Добавить файл</a>
+</div>
+
+<p></p>
+
+<div>
+<table border="2", align="center", width="35%">
+  <tr>
+    <th>Термин</th>
+    <th>TF</th>
+    <th>IDF</th>
+  </tr>
+  {% for obj in table %}
+  <tr>
+    <td align="center">{{ obj.term }}</td>
+    <td align="center">{{ obj.tf }}</td>
+    <td align="center">{{ obj.idf }}</td>
+  </tr>
+  {% endfor %}
+</table>
+</div>
+
+
