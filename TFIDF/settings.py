@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'TFIDFapp',
-    'django_tables2',
 ]
 
 MIDDLEWARE = [

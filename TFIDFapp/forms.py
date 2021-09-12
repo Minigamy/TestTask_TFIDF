@@ -13,4 +13,6 @@ class UploadFileForm(forms.ModelForm):
 
 class ComputeForm(forms.Form):
     '''Форма для указания номера документа, относительно которого необходимо посчитать TF'''
-    doc_number = forms.IntegerField(max_value=len(os.listdir(MEDIA_ROOT + "/files/")))
+    doc_number = forms.IntegerField()
+
+# max_value=len(os.listdir(MEDIA_ROOT + "/files/"))
