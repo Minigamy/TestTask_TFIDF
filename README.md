@@ -1,7 +1,7 @@
 # TestTask_TFIDF
 Term frequency - Inverse document frequency
 
-##Порядок запуска
+## Порядок запуска
 1) Устанавливаем зависимости из `requirements.txt`
 2) Делаем миграции
 3) Запускаем сервер в терминале командой `python manage.py runserver`
@@ -10,7 +10,7 @@ Term frequency - Inverse document frequency
 Далее следуем инструкциям.
 
 
-##Описание
+## Описание
 
 Данная программа предназначена для расчета TF — term frequency и IDF — inverse document frequency.
 
