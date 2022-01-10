@@ -19,14 +19,17 @@ TF-IDF (от англ. TF — term frequency, IDF — inverse document frequency
 ![Главное меню программы](https://github.com/Minigamy/TestTask_TFIDF/blob/master/img/tfidf1.PNG)
 <p align="center">Рисунок 1. Главное меню</p>  
   
+
+  
   
 
 После запуска приложения появляется возможность згрузить на сервер коллекцию документов (корпус), записать все слова оттуда в базу данных, и в результатае получить таблицу с термином, важностью термина в пределах одного документа и значение обратной частоты документа для данного термина.  
 
 
 ![Выбор документа](https://github.com/Minigamy/TestTask_TFIDF/blob/master/img/tfidf2.PNG)
-<center>Рисунок 2. Настройки параметров</center>
+<p align="center">Рисунок 2. Настройки параметров</p>  
+
 
 
 ![Таблица](https://github.com/Minigamy/TestTask_TFIDF/blob/master/img/tfidf3.PNG)
-<center>Рисунок 3. Итоговая таблица</center>
+<p align="center">Рисунок 3. Итоговая таблица</p>  
